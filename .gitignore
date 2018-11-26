@@ -1,0 +1,7 @@
+/tmp/cache/view
+/tmp/cache/log
+/tmp/cache/session
+/vendor
+/config/config.php
+/node_modules
+/.idea

@@ -1,0 +1,22 @@
+{
+    "name": "litblc/litblc",
+    "description": "a php framework",
+    "type": "project",
+    "require-dev": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guanguans\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Huaixiu Zhen",
+            "email": "huaixiu.zhen@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.5"
+    }
+}
