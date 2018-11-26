@@ -1,6 +1,6 @@
 /tmp/cache/view
-/tmp/cache/log
-/tmp/cache/session
+/tmp/log
+/tmp/session
 /vendor
 /config/config.php
 /node_modules
