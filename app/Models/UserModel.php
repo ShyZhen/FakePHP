@@ -1,5 +1,7 @@
 <?php
 /**
+ * 用户模型 测试使用
+ *
  * @Author huaixiu.zhen
  * http://litblc.com
  * User: z00455118
@@ -20,7 +22,7 @@ class UserModel extends Model
      * http://litblc.com
      * @return array|string
      */
-    public static function getUser()
+    public static function getAllUser()
     {
         $table = self::$table;
         $sql = "select * from $table";

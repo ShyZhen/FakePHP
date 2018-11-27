@@ -17,6 +17,8 @@ class Bootstrap
     private static $action = 'index';
 
     /**
+     * 加载配置文件
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
      */
@@ -26,6 +28,8 @@ class Bootstrap
     }
 
     /**
+     * 显示错误开关
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
      */
@@ -37,6 +41,7 @@ class Bootstrap
     }
 
     /**
+     * 路由解析
      * 支持模型/控制器/方法名
      *
      * @Author huaixiu.zhen
@@ -84,6 +89,8 @@ class Bootstrap
     }
 
     /**
+     * 路由调度分发
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
      */
@@ -96,6 +103,8 @@ class Bootstrap
     }
 
     /**
+     * 自动加载
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
      */
@@ -107,6 +116,7 @@ class Bootstrap
     /**
      * @Author huaixiu.zhen
      * http://litblc.com
+     *
      * @param $name
      */
     private static function autoload($name)
@@ -118,6 +128,8 @@ class Bootstrap
     }
 
     /**
+     * 框架启动程序
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
      */

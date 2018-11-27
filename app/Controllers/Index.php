@@ -1,5 +1,7 @@
 <?php
 /**
+ * 示例控制器（默认控制器）
+ *
  * @Author huaixiu.zhen
  * http://litblc.com
  * User: z00455118
@@ -12,14 +14,17 @@ namespace App\Controllers;
 class Index extends Controller
 {
     /**
-     * 默认控制器
-     *
      * @Author huaixiu.zhen
      * http://litblc.com
+     *
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
      */
     public function index()
     {
-        echo 'welcome';
+        $data = ['data' => 'welcome to fakePHP'];
+        echo $this->view->render('welcome.html', $data);
     }
 
 }

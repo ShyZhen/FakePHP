@@ -22,7 +22,7 @@ class Controller
     protected $cachePath = ROOT . DS . 'tmp' . DS . 'cache' . DS . 'view';
 
     /**
-     * 加载twig模板
+     * 加载twig模板 初始化视图
      *
      * Controller constructor.
      */

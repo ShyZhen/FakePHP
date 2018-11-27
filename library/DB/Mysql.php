@@ -21,6 +21,8 @@ class Mysql
     private $conn;
 
     /**
+     * 创建链接
+     *
      * Mysql constructor.
      * @param $config
      */
@@ -67,7 +69,7 @@ class Mysql
      *
      * @param $sql
      *
-     * @return array|bool|mysqli_result
+     * @return array|bool
      */
     public function query($sql)
     {

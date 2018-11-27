@@ -1,5 +1,7 @@
 <?php
 /**
+ * 示例控制器
+ *
  * @Author huaixiu.zhen
  * http://litblc.com
  * User: z00455118
@@ -25,7 +27,7 @@ class Index extends Controller
      */
     public function index()
     {
-        $data = ['name' => 'litblc'];
+        $data = ['data' => 'welcome to fakePHP'];
         echo $this->view->render('welcome.html', $data);
     }
 
@@ -37,7 +39,7 @@ class Index extends Controller
      */
     public function dbTest()
     {
-        $user = UserModel::getUser();
+        $user = UserModel::getAllUser();
         return print_r($user);
     }
 

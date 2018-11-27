@@ -20,8 +20,10 @@ class Model
 
     /**
      * 初始化数据库链接
+     *
      * @Author huaixiu.zhen
      * http://litblc.com
+     *
      * @return Mysql|null
      */
     public static function DB()
