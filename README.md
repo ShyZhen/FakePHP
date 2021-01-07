@@ -8,7 +8,7 @@ a framework for learning php
  - `cp config.php.example config.php`
  - edit`config.php`
 
-# Chang List
+# Change List
 
 #### Config
  - 配置文件在/config目录下，copy`config.php.example` 并重命名为`config.php`即可。

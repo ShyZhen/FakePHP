@@ -1,19 +1,12 @@
 {
-    "name": "litblc/litblc",
+    "name": "shyzhen/fakephp",
     "description": "a php framework",
     "type": "project",
-    "require-dev": {
-        "php": ">=5.4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Guanguans\\": "src/"
-        }
-    },
+    "license": "MIT",
     "authors": [
         {
-            "name": "Huaixiu Zhen",
-            "email": "huaixiu.zhen@gmail.com"
+            "name": "zhenhuaixiu",
+            "email": "zhenhuaixiu@sznews.com"
         }
     ],
     "require": {
