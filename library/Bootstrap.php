@@ -49,6 +49,7 @@ class Bootstrap
      */
     private static function route()
     {
+        // 使用path_info模式必须先开启path_info
         if (isset($_SERVER['REDIRECT_PATH_INFO']) || isset($_SERVER['PATH_INFO'])) {
             $pathInfo = isset($_SERVER['PATH_INFO']) ? trim($_SERVER['PATH_INFO'], '/') : trim($_SERVER['REDIRECT_PATH_INFO'], '/');
             $baseSpace = 'App\Controllers\\';

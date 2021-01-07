@@ -23,6 +23,7 @@ class Index extends Controller
      */
     public function index()
     {
+        // ?controller=index&action=index
         $data = ['data' => 'welcome to fakePHP'];
         echo $this->view->render('welcome.html', $data);
     }

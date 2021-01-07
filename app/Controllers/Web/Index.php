@@ -27,7 +27,8 @@ class Index extends Controller
      */
     public function index()
     {
-        $data = ['data' => 'welcome to fakePHP'];
+        // ?module=web&controller=index&action=index
+        $data = ['data' => 'welcome to fakePHP [web module]'];
         echo $this->view->render('welcome.html', $data);
     }
 
