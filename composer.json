@@ -1,7 +1,11 @@
 {
     "name": "shyzhen/fakephp",
-    "description": "a php framework",
+    "description": "a simple framework of php",
     "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "twig/twig": ">=2.5"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +13,10 @@
             "email": "zhenhuaixiu@sznews.com"
         }
     ],
-    "require": {
-        "twig/twig": "^2.5"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     }
 }
