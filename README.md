@@ -4,7 +4,7 @@ a framework for learning php
 准备开发一款简单的框架,满足基本要求即可。
 
 # Use Guider
- - `composer install`
+ - `composer create-project shyzhen/fakephp`
  - `cp config.php.example config.php`
  - edit`config.php`
 
