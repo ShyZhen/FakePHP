@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "php": ">=7.0",
-        "twig/twig": ">=2.5"
+        "jaeger/querylist": "dev-master",
+        "jaeger/querylist-phantomjs": "dev-master"
     },
     "license": "MIT",
     "authors": [

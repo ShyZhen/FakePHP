@@ -28,11 +28,11 @@ class Controller
      */
     public function __construct()
     {
-        $loader = new \Twig_Loader_Filesystem($this->path);
-
-        $this->view = new \Twig_Environment($loader, array(
-            'cache' => $this->cachePath,
-            'debug' => Bootstrap::$config['app_debug']
-        ));
+//        $loader = new \Twig_Loader_Filesystem($this->path);
+//
+//        $this->view = new \Twig_Environment($loader, array(
+//            'cache' => $this->cachePath,
+//            'debug' => Bootstrap::$config['app_debug']
+//        ));
     }
 }
