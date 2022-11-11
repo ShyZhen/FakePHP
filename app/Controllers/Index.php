@@ -33,7 +33,7 @@ class Index extends Controller
 
     public function spader()
     {
-        $this->handleSpader(534);
+        $this->handleSpader(521);
     }
 
     public function handleSpader($id)
@@ -257,6 +257,7 @@ class Index extends Controller
     "542": "暃",
     "534": "桑启",
     "548": "戈娅"
+    "521": "海月"
 }';
         $heroArr = json_decode($json, true);
         return $heroArr[$heroId];
